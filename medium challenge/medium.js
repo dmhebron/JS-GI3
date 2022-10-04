@@ -6,7 +6,7 @@
 
 
 //created a function called sharePizza
-let text = "Each person gets" + sharePizza + "slices of pizza";
+let text = "Each person gets" + cut/share + "slices of pizza";
 var sharePizza = (cut, share) => {
     return text + cut/share; 
 };
