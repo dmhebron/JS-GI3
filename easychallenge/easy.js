@@ -1,7 +1,10 @@
-// EASY: Write a function that would allow you to do this:
-// var run = exercise('running');
-// console.log(run()); // prints "Today's exercise: running"
-// var swim = exercise('swimming');
-// console.log(swim()); // prints "Today's exercise: swimming"
+var createExercise = (message, exercise1) => {
+    return "Today's" + message + ":" + exercise1;
+    // return "Today's" + "exercise" + exercise2;
+};
+console.log(createExercise("exercise", "running"));
 
-function exercise(x)
+var createExercise = (message, exercise2) => {
+    return "Today's" + message + ":" + exercise2;
+};
+console.log(createExercise("exercise", "swimming"));
