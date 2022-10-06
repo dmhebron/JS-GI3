@@ -11,7 +11,7 @@ var sharePizza = (cut, share) => {
     return text + cut/share; 
 };
 console.log(sharePizza("8", "2"));
-//the cosole is going to start reading from the top
+//the console is going to start reading from the top
 // first it will read the string assigned to the text function
 // then it will know the parameters are cut and share
 //then it will know it will divide cut by share
